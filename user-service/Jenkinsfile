@@ -1,0 +1,21 @@
+@Library('company-shared-library') _
+
+pipeline {
+
+ agent any
+
+ stages {
+
+  stage('Build') {
+
+   steps {
+
+    dockerBuild("user-service")
+
+   }
+
+  }
+
+ }
+
+}
