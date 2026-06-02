@@ -22,4 +22,8 @@ Developer --> GitHub --> Jenkins --> Shared Library
                                                      3. order-service
 
  Why? our fow will be.... user-service ==> payment-service then, payment-service ==> order-service
+
+ now, each microservice directory will have its sourcecode + Dockerfile + Jenkinsfile.
+ In our case its just 3, imagine an enterprise workplace, banking, finance - 100's of api's - means a MESS.
+ So, this scenario uses shared library concept in jenkins to keep he workplace clean.
  
