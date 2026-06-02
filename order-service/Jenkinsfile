@@ -10,7 +10,7 @@ pipeline {
 
    steps {
 
-    dockerBuild("user-service")
+    dockerBuild("order-service")
 
    }
 
