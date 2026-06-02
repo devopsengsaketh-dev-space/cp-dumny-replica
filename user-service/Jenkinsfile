@@ -1,4 +1,4 @@
-@Library('company-shared-library') _
+@Library('cp-dummny-replica-sharedlibraries-') _
 
 pipeline {
 
