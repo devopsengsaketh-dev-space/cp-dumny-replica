@@ -1,9 +1,14 @@
 name: build payment-service
-on: push
+
+on:
+  push:
+
 jobs:
   build:
-  runs-on: ubuntu-latest
-  steps:
-  -uses: actions/checkout
-  -name: build
-  run: mvn clean package 
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: build
+        run: mvn clean package
